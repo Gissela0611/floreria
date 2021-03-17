@@ -1,0 +1,101 @@
+@media screen and (max-width: 980px) {
+
+	.container, .inner-container{
+		padding: 15px;
+		width:100%;
+	}
+	.page-container{width:100%; } 
+	.page-container.container {width: 100%; }
+	.logo {
+	  display: block;
+	  margin: 0 auto;
+	  width: 290px;
+	}
+	.show-mobile{display: block;}
+	.contact-content form {width: 100%; }
+	textarea {min-height: 100px; }
+	.menu ul {text-align: center;}
+	.col-md-45 {
+	  float: none;
+	  margin: 3em 0;
+	  width: 100%;
+	}
+	.col-xs-12 {margin: 2em 0; }
+	.bg-green .content-text {
+	  padding-left: 0;
+	  width: 100%;
+	}
+	section .content-text {padding: 30px 0; }
+	#content article p {padding-left: 0; }
+	nav.footer {
+  font-size: 0.9em;
+  height: 98px;
+  margin: 0.5em 0 0;
+  text-align: center;
+}
+
+
+}
+
+
+@media screen and (max-width: 750px) {
+
+	nav li {
+	  float: left;
+	  width: 20%;
+	}
+
+	section .content-text {
+	  width: 100%;
+	}
+	.bloc-img.bordered {
+	  max-width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 500px) {
+
+	label {
+	  display: inline-block;
+	  margin: 1em 0 -0.3em 0.5em;
+	  padding: 0;
+	  text-align: left!important;
+	  vertical-align: middle;
+	  width: 100%!important;
+	}
+	input, textarea {width: 100%!important;margin: 0.5em 0 0.5em; }
+	
+	h1, .h1 {font-size: 1.2em; }
+
+	.logo {width: 100%; }
+	.logo a {text-align: center; }
+	.green-btn {margin: 1.5em auto; }
+	nav a {margin: 0.3em 0.3em 0.3em 0; }
+	h1, .h1 {width: 100%; }
+	article{margin-bottom: 3em;}
+	.copy-header {right: 10px; }
+	header .call {
+	  display: block;
+	  float: none;
+	  margin: 0 auto 1em;
+	  width: 140px;
+	}
+	header .search {
+	  float: none;
+	  margin: 2em auto 0;
+	}
+	.menu-footer li {padding: 0.3em; }
+	.logo h1 {padding: 10px 0 20px; }
+	nav li {width: 50%; }
+	nav a {width: 100%; }
+}
+
+@media screen and (max-width: 320px) {
+
+}
+
+
+
+
+

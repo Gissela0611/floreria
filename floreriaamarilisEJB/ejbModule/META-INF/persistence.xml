@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+	<persistence-unit name="glramirezrDS" transaction-type="JTA">
+		<jta-data-source>java:/glramirezrDS</jta-data-source>
+		<class>floreriaamarilis.model.core.entities.AudBitacora</class>
+		<class>floreriaamarilis.model.core.entities.SegAsignacion</class>
+		<class>floreriaamarilis.model.core.entities.SegModulo</class>
+		<class>floreriaamarilis.model.core.entities.SegUsuario</class>
+		<class>floreriaamarilis.model.core.entities.ThmCargo</class>
+		<class>floreriaamarilis.model.core.entities.ThmEmpleado</class>
+		<class>floreriaamarilis.model.core.entities.ThmRolCabecera</class>
+		<class>floreriaamarilis.model.core.entities.ThmRolDetalle</class>
+		<class>floreriaamarilis.model.core.entities.Cliente</class>
+		<class>floreriaamarilis.model.core.entities.Detalle</class>
+		<class>floreriaamarilis.model.core.entities.DetallePK</class>
+		<class>floreriaamarilis.model.core.entities.Factura</class>
+		<class>floreriaamarilis.model.core.entities.Producto</class>
+	</persistence-unit>
+</persistence>
